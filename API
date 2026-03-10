@@ -1,0 +1,18 @@
+{
+  "https://api.example.com/endpoint1": {
+    "status": 200,
+    "body": "{\"result\": \"ok\"}",
+    "headers": {"Content-Type": "application/json"}
+  },
+  "https://api.example.com/endpoint2": {
+    "status": 404,
+    "body": "Not found",
+    "headers": {"Content-Type": "text/plain"}
+  },
+  "/api/nexus/Validate": {
+    "status": 200,
+    "body": "true",
+    "headers": {"Content-Type": "application/json"}
+  }
+  // Add more APIs as needed
+}
